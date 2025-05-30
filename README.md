@@ -22,10 +22,16 @@ Chapter 2. HW & Sensor Control
 
 Chapter 3. HMI
 
-   3-1.serial-communication.md
+   
+   [3-1.serial-communication.md](https://github.com/hanback-lab/XConvey/blob/main/3.%20HMI/3-1.Serial_Communication.md)
 
-   3-2.HMI.md
+   [3-2.mqtt.md](https://github.com/hanback-lab/XConvey/blob/main/3.%20HMI/3-2.mqtt.md)
 
+   [3-3.HMI.md](https://github.com/hanback-lab/XConvey/blob/main/3.%20HMI/3-3.HMI.md)
+
+   [3-4.Realtime Monitoring.md](https://github.com/hanback-lab/XConvey/blob/main/3.%20HMI/3-4.%20Realtime_monitoring.md)
+   
+   
 Chapter 4. Vision Processing
 
    4-1.vision-processing.md
