@@ -16,7 +16,7 @@ Chapter 2. HW & Sensor Control
 
    [2-5.asnycio.md](https://github.com/hanback-lab/XConvey/blob/main/2.Firmware%20%26%20Actuator%20and%20Sensor/2-5.AsyncIO.md)
 
-   [2-6.protocol.md]((https://github.com/hanback-lab/XConvey/blob/main/2.Firmware%20%26%20Actuator%20and%20Sensor/2-6.Protocol.md))
+   [2-6.protocol.md](https://github.com/hanback-lab/XConvey/blob/main/2.Firmware%20%26%20Actuator%20and%20Sensor/2-6.Protocol.md)
 
    
 
