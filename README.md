@@ -2,7 +2,7 @@
 
 Chapter 1. XConvey Overview
 
-   [1. XConvey 개요](https://github.com/hanback-lab/XConvey/blob/main/1.XConvey-Overview/1.%20XConvey%20Overview.md)
+   [1. XConvey Overview](https://github.com/hanback-lab/XConvey/blob/main/1.XConvey-Overview/1.%20XConvey%20Overview.md)
 
 Chapter 2. HW & Sensor Control
    
