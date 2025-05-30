@@ -34,10 +34,10 @@ Chapter 3. HMI
    
 Chapter 4. Vision Processing
 
-   4-1.vision-processing.md
+   [4-1.vision-processing.md](https://github.com/hanback-lab/XConvey/blob/main/4.%20Vision%20Processing/4.Vision_Processing.md)
 
 Chapter 5 cloud-dashboard.md
 
-   5-1.cloud-dashboard.md
+   [5-1.cloud-dashboard.md](https://github.com/hanback-lab/XConvey/blob/main/5.%20Cloud%20Dashboard/5.Cloud_Dashboard.md)
 
 
