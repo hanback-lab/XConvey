@@ -92,7 +92,7 @@ source setup_env.sh
 
 미리 제작된 영상을 통해 CLIP 동작을 확인하려면 "--input demo" 를 입력하고, 카메라를 통해 동작을 확인하고 싶다면 "--input /dev/video0" 를 입력합니다. 
 ```sh
-python clip_application --input demo
-python clip_application --input /dev/video0
+python clip_application.py --input demo
+python clip_application.py --input /dev/video0
 ```
 
