@@ -14,12 +14,12 @@ pop-xconvey 활용에 앞서 연결 설정 파일을 생성합니다. 접속할 
 
 ```
 BROKER_DOMAIN=mqtt.eclipseprojects.io
-DEVICE_NAME=xhome
+DEVICE_NAME=xconvey
 DEV_NUM=01
 INSITUTION_NAME=hbe
 ```
 
-BROKER_DOMAIN 에는 접속할 브로커의 주소를 입력합니다. 기본은 "mqtt.eclipseprojects.io" 입니다. DEVICE_NAME 은 장비의 이름으로 XHome 은 'xhome' 으로 기본 설정되어 있습니다. DEV_NUM 은 장치의 고유 번호로 여러개의 장비가 존재하는 경우에는 이 번호를 중복되지 않게 설정해야 합니다. INSITUTION_NAME 은 학교 또는 기관의 명칭을 고유 키워드로 활용합니다.
+BROKER_DOMAIN 에는 접속할 브로커의 주소를 입력합니다. 기본은 "mqtt.eclipseprojects.io" 입니다. DEVICE_NAME 은 장비의 이름으로 XConvey 는 'xconvey' 으로 기본 설정되어 있습니다. DEV_NUM 은 장치의 고유 번호로 여러개의 장비가 존재하는 경우에는 이 번호를 중복되지 않게 설정해야 합니다. INSITUTION_NAME 은 학교 또는 기관의 명칭을 고유 키워드로 활용합니다.
 
 product 파일은 pop-xconvey 을 활용하여 작성된 파이썬 프로그램을 실행하는 위치에 존재해야합니다.
 
