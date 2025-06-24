@@ -53,4 +53,5 @@
 
 ### 부록
 
-- [Accelerator](https://github.com/hanback-lab/XConvey/blob/main/etc/Accelerator.md)
+- [A. Accelerator](https://github.com/hanback-lab/XConvey/blob/main/etc/A.%20Accelerator.md)
+- [B. Pop API](https://github.com/hanback-lab/XConvey/blob/main/etc/B.%20Pop%20API.md)
