@@ -20,7 +20,7 @@ class MQTTBridge:
     ETX = 0x3E
 
     act_id = {"ConveyorBelt":0x10, "ServoIn":0x11, "ServoMake":0x12, "ServoSort":0x13, "Indicator":0x14}
-    sensor_id = {"Encoder":0x20, "ServoIn":0x21, "ServoMake":0x22, "ServoSort":0x23, "PhotoGroup":0x24, "PhotoSort1":0x25, "PhotoSort2":0x26, "Inductive":0x27, "SwitchStart":0x28, "SwitchStop": 0x29}
+    sensor_id = {"ServoIn":0x21, "ServoMake":0x22, "ServoSort":0x23, "PhotoGroup":0x24, "PhotoSort1":0x25, "PhotoSort2":0x26, "Inductive":0x27, "SwitchStart":0x28, "SwitchStop": 0x29}
     indicator_table = {"red":0x01, "yellow": 0x02, "green": 0x03}
     servo_name_table = {"sorting":"ServoSort","feeding":"ServoIn","processing":"ServoMake"}
     servo_value_table = {
@@ -203,7 +203,10 @@ class MQTTBridge:
                             calc_crc = self._crc16_modbus(recv_data[1:-3])
                             if packet_crc == calc_crc:
                                 packet_id = recv_data[1]
-                                if packet_id == self.sensor_id["ServoIn"]:
+                                if packet_id == self.sensor_id["Encoder"]:
+                                    self._client.publish(self.TOPIC_HEADER+"/transfer/encoder",(recv_data[3] << 8) + recv_data[4], 0)
+                                    break
+                                elif packet_id == self.sensor_id["ServoIn"]:
                                     self._client.publish(self.TOPIC_HEADER+"/feeding/servo/state", "supply" if recv_data[3] else "load", 0)
                                     break
                                 elif packet_id == self.sensor_id["ServoMake"]:
