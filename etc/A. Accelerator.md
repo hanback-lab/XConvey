@@ -46,7 +46,7 @@ hailortcli fw-control identify
 ```
 
 ## Hailo 기반 Object Detection 
-Hailo Application Infrastructure Hailo 애플리케이션 예제를 실행하는 데 필요한 핵심 인프라와 파이프라인을 제공합니다. Raspberry Pi 4 및 5, x86_64 및 aarch64 Ubuntu 머신을 포함한 여러 플랫폼에서 사용할 수 있도록 구축되었습니다. 감지, 자세 추정 및 인스턴스 분할 예제를 실행하기 위한 기성 파이프라인이 포함되어 있으며, 다음과 같은 공통 구성 요소와 유틸리티가 포함되어 있습니다.
+Hailo Application Infrastructure는 Hailo 애플리케이션 예제를 실행하는 데 필요한 핵심 인프라와 파이프라인을 제공합니다. Raspberry Pi 4 및 5, x86_64 및 aarch64 Ubuntu 머신을 포함한 여러 플랫폼에서 사용할 수 있도록 구축되었습니다. 감지, 자세 추정 및 인스턴스 분할 예제를 실행하기 위한 기성 파이프라인이 포함되어 있으며, 다음과 같은 공통 구성 요소와 유틸리티가 포함되어 있습니다.
 
 다음 명령을 통해 설치합니다. 
 ```sh 
